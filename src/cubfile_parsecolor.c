@@ -6,7 +6,7 @@
 /*   By: dmylonas <dmylonas@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/30 18:04:19 by dmylonas          #+#    #+#             */
-/*   Updated: 2022/01/04 10:53:46 by dmylonas         ###   ########.fr       */
+/*   Updated: 2022/01/18 09:34:57 by dmylonas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,8 @@ void	cubfile_setcolor(t_data *cub)
 	cub->color_floor = (cub->color_floor << 8) + f->rgb_color_floor[1];
 	cub->color_floor = (cub->color_floor << 8) + f->rgb_color_floor[2];
 	cub->color_ceiling = f->rgb_color_ceiling[0];
-	cub->color_ceiling = (cub->color_ceiling << 8) + f->rgb_color_floor[1];
-	cub->color_ceiling = (cub->color_ceiling << 8) + f->rgb_color_floor[2];
+	cub->color_ceiling = (cub->color_ceiling << 8) + f->rgb_color_ceiling[1];
+	cub->color_ceiling = (cub->color_ceiling << 8) + f->rgb_color_ceiling[2];
 }
 
 static
