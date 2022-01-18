@@ -1,18 +1,4 @@
-# cub3d
-
-![](subject/cub3d-01.png)
-![](subject/cub3d-02.png)
-![](subject/cub3d-03.png)
-![](subject/cub3d-04.png)
-![](subject/cub3d-05.png)
-![](subject/cub3d-06.png)
-![](subject/cub3d-07.png)
-![](subject/cub3d-08.png)
-![](subject/cub3d-09.png)
-![](subject/cub3d-10.png)
-![](subject/cub3d-11.png)
-![](subject/cub3d-12.png)
-![](subject/cub3d-13.png)
-![](subject/cub3d-14.png)
-![](subject/cub3d-15.png)
-![](subject/cub3d-16.png)
+# Cub3D
+  This project is inspired by the world-famous Wolfenstein 3D game, the first FPS game ever.
+It will enable you to explore ray-casting. Your goal will be to
+make a dynamic view inside a maze.
